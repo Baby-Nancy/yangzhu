@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="image.qrc">
+    <normaloff>:/image/fengjing06(1)(1).png</normaloff>:/image/fengjing06(1)(1).png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">MainWindow{
+border-image: url(:/image/fengjing01(1).png);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>6</number>
+    </property>
+    <widget class="QWidget" name="page_tab1">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>631</width>
+        <height>451</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tab_btnPig">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>90</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>pig</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_back">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>510</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_sell">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>150</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>卖猪</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_buy">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>210</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>买猪</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_new">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>270</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>刷新</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QTableWidget" name="tableWidget_pig">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>40</y>
+        <width>601</width>
+        <height>431</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tab_btnPigsty">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>110</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>pigsty</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_back2">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>510</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QToolButton" name="toolButton">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>120</y>
+        <width>341</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>欢迎来到香香的养猪场！</string>
+      </property>
+      <property name="icon">
+       <iconset resource="image.qrc">
+        <normaloff>:/image/pig.png</normaloff>:/image/pig.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextBesideIcon</enum>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>110</y>
+        <width>343</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QToolButton" name="btn_pigstyid">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>猪圈编号：</string>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" colspan="2">
+        <widget class="QLineEdit" name="lineEdit_pigstyid">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QToolButton" name="toolButton_2">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>猪圈中猪的种类：</string>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QToolButton" name="toolButton_3">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>猪圈中猪的数量：</string>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>330</y>
+        <width>315</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="btn_yes2">
+         <property name="text">
+          <string>确定</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_find">
+         <property name="text">
+          <string>继续查询</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_back3">
+         <property name="text">
+          <string>返回</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>70</y>
+        <width>521</width>
+        <height>401</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QTableWidget" name="tableWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>70</y>
+        <width>581</width>
+        <height>411</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QTableWidget" name="tableWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>90</y>
+        <width>571</width>
+        <height>421</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>20</y>
+        <width>350</width>
+        <height>47</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QToolButton" name="toolButton_4">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>猪的数量为：</string>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_num">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>具体功能</string>
+    </property>
+    <addaction name="actionnew"/>
+    <addaction name="separator"/>
+    <addaction name="actionquery_pigtab"/>
+    <addaction name="separator"/>
+    <addaction name="actionquery_pigsty"/>
+    <addaction name="separator"/>
+    <addaction name="actionquery_pig"/>
+    <addaction name="separator"/>
+    <addaction name="actionsell"/>
+    <addaction name="separator"/>
+    <addaction name="actionbuy"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="actionquery_pigsty">
+   <property name="text">
+    <string>猪圈信息</string>
+   </property>
+  </action>
+  <action name="actionquery_pig">
+   <property name="text">
+    <string>猪的信息</string>
+   </property>
+  </action>
+  <action name="actionquery_pigtab">
+   <property name="text">
+    <string>猪场信息</string>
+   </property>
+  </action>
+  <action name="actionnew">
+   <property name="text">
+    <string>创建猪场</string>
+   </property>
+  </action>
+  <action name="actionsell">
+   <property name="text">
+    <string>卖猪记录</string>
+   </property>
+  </action>
+  <action name="actionbuy">
+   <property name="text">
+    <string>买猪记录</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

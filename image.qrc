@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/maomilaoshi(1).png</file>
+        <file>image/pig.png</file>
+        <file>image/xiamu01.png</file>
+        <file>image/xiamu02.png</file>
+        <file>image/xiamu03.png</file>
+        <file>image/xiamu04.png</file>
+        <file>image/yyqx.gif</file>
+        <file>image/yyqx01(1).png</file>
+        <file>image/yyqx01.png</file>
+        <file>image/yyqx02.png</file>
+        <file>image/yyqx03.png</file>
+        <file>image/fengjing01(1).png</file>
+        <file>image/fengjing02(1)(1).png</file>
+        <file>image/fengjing03(1)(1).png</file>
+        <file>image/fengjing04(1)(1).png</file>
+        <file>image/fengjing05(1)(1).png</file>
+        <file>image/fengjing06(1)(1).png</file>
+    </qresource>
+</RCC>
